@@ -15,7 +15,7 @@ class MineTest():
 
 
         fm = FindandClick(driver)
-        fm.fieldsmethod("Pierwszy tekst,", "Drugi tekst, second time writing somethingggggg")
+        fm.fieldsmethod("Pierwszy tekst - zmodyfikowany", "Drugi tekst")
 
         # driver.find_element_by_id("bmwradio").click()
         # driver.find_element_by_id("bmwcheck").click()
